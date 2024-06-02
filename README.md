@@ -1,15 +1,17 @@
-# Labs - Deploying Voting App on Kubernetes
+# KodeKloud - Kubernetes Crash Course
 
-## Create Resources
+## Labs - Deploying Voting App on Kubernetes
 
-```zsh
-kubectl create namespace vote
-kubectl apply -f labs/deploying-voting-app-on-kubernetes -n vote
-```
+1. create resources
 
-## Delete Resources
+   ```zsh
+   kubectl create namespace vote
+   kubectl apply -f labs/deploying-voting-app-on-kubernetes -n vote
+   ```
 
-```zsh
-kubectl delete -f labs/deploying-voting-app-on-kubernetes -n vote
-kubectl delete namespace vote
-```
+2. delete resources
+
+   ```zsh
+   kubectl delete -f labs/deploying-voting-app-on-kubernetes -n vote
+   kubectl delete namespace vote
+   ```
